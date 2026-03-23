@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Belleza y Estética</div>
+            <button class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio" class="activ">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+</header>
+<!---------------------------HERO------------------->
+<main>
+    <section>
+        <div class="section-container-hero" id="inicio">
+            <div class="hero-text">
+                <h1>Resaltá tu Belleza</h1>
+                <p>Tratamientos de estética para verte y sentirte increible</p>
+                <button class="button-hero">Reserva tu Turno</button>
+            </div>
+            <div class="hero-img">
+                <img src="./Imagenes/5.png" alt="Tratamientos-estéticos">
+
+            </div>
+
+        </div>
+    </section>
+</main>
+        <section>
+            <div class="section-container-servicios" id="servicios">
+                <div class="lineas-decoracion"><h2>Nuestros Servicios</h2></div>
+                <div class="container-servicios">
+                    <div class="card-servicio">
+                        <img src="./Imagenes/Tratamientosfaciales.png" alt="Tratamientos Faciales">
+                        <h3>Tratamientos Faciales</h3>
+                        <p>Limpieza y Rejuvenecimiento.</p>
+                    </div>
+                    <div class="card-servicio">
+                        <img src="./Imagenes/Pestañas.png" alt="Extensiones de Pestañas">
+                        <h3>Extensiones de Pestañas</h3>
+                        <p>Limpieza y Rejuvenecimiento.</p>
+                    </div>
+                    <div class="card-servicio">
+                        <img src="./Imagenes/Manos y uñas1.png" alt="Manos y uñas">
+                        <h3>Manos y Uñas</h3>
+                        <p>Esmaltado semipermanente</p>
+                    </div>
+                </div>
+                <button class="button-servicios">Ver todos los servicios</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-section-testimonios" id="testimonios">
+                <h2>Testimonios</h2>
+                <p>Lo que dicen nuestras clientas</p>
+                <div class="container-cards">
+                    
+                    <div class="cards">
+                        <img src="./Imagenes/Testimonio-pestañas.png" alt="Testimonio de pestañas">
+                        <div class="cards-text">
+                            <h3>Sofia M.</h3>
+                            <p>¡Excelente atención! Me encantó como dejaron mis uñas.</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./Imagenes/Testimonios-uñas.png" alt="Testimonio de uñas">
+                        <div class="cards-text">
+                            <h3>Maria R.</h3>
+                            <p>¡Me encanto el trato! Super recomendable, no vemos el próximo mes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="section-contact" id="contacto">
+                <div class="card-contact">
+                    <h3>Contacto</h3>
+                    <div class="item-contacto">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Av. San Martin 4848</span>
+                    </div>
+                    <div class="item-contacto">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>11-51135869</span>
+                    </div>
+                    <div class="item-contacto">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Belleza&estetica@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="formulario">
+                    <h3>Agendá tu cita</h3>
+
+                <form class="form">  <div class="Formulario-nombre-telefono">
+                    <div class="input">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="input">
+                        <label for="telefono">Telefono::</label>
+                        <input type="tel" id="telefono" placeholder="Telefono">
+                    </div>
+                </div>
+                <div class="mensaje">
+                    <label for="mensaje"></label>
+                    <textarea name="mensaje" id="mensaje" placeholder="¿En que podemos ayudarte?"></textarea>
+
+                </div>
+                <button type="submit" class="btn-form">Enviar Mensaje</button>
+            
+            
+            </form>
+                
+            
+                </div>
+            </div>
+        </section>
+</body>
+<script src="./main.js"></script>
+</html>
