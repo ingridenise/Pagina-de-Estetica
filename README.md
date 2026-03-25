@@ -2,6 +2,7 @@
 
 Este es un proyecto de práctica profesional desarrollado como parte de mi formación en **Frontend Development**. Se trata de una landing page elegante y minimalista diseñada para un centro de estética, enfocada en la experiencia de usuario y el diseño responsive.
 
+
 ## 🚀 Funcionalidades
 * **Diseño Responsive:** Adaptado para celulares, tablets y escritorio.
 * **Menú Hamburguesa:** Navegación móvil interactiva desarrollada con **JavaScript**.
@@ -12,6 +13,9 @@ Este es un proyecto de práctica profesional desarrollado como parte de mi forma
 * **CSS3:** Estilos personalizados, Flexbox para el diseño de tarjetas.
 * **JavaScript (JS):** Lógica para la apertura y cierre del menú en dispositivos móviles.
 * **Font Awesome:** Iconografía para redes sociales y datos de contacto.
+
+  Puedes acceder a la web desplegada aquí:
+         Visitar Página de Estética
 
 ---
 ### 👩‍💻 Sobre mí
