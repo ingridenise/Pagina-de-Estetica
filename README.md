@@ -14,8 +14,9 @@ Este es un proyecto de práctica profesional desarrollado como parte de mi forma
 * **JavaScript (JS):** Lógica para la apertura y cierre del menú en dispositivos móviles.
 * **Font Awesome:** Iconografía para redes sociales y datos de contacto.
 
-  Puedes acceder a la web desplegada aquí:
-         Visitar Página de Estética
+  ### 🚀 Ver proyecto en vivo
+Puedes acceder a la web desplegada aquí:
+**[Visitar Página de Estética](https://pagina-de-estetica.vercel.app/#inicio)**
 
 ---
 ### 👩‍💻 Sobre mí
